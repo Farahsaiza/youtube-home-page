@@ -1,0 +1,372 @@
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 18%;
+    padding: 15px  10px;
+
+}
+.tete{
+    display: flex;
+    flex-direction: row;
+}
+.ico{
+    background-color: #ff0000;
+    width: 35px;
+    height: 25px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 23px;
+}
+.triangle {
+    width: -5px;
+    height: 0;
+    margin-top: 7px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid white;
+  }
+.tete > h6{
+    font-weight: bolder;
+    font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5px;
+
+}
+.tete  > h5{
+    font-size: x-small;
+    font-weight: light;
+    margin-left: 5px;
+}
+.tete > svg:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    
+
+}
+.slide1{
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding-bottom: 5px;
+    width: 200px;
+    
+}
+.titre{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
+    width: 200px;
+    height: 40px;
+    margin:5px  0px;
+    
+
+}
+.titre > svg{
+    margin-right: 35px;
+    margin-left: 10px;
+}
+.titre > h6{
+    font-size: 15px;
+    font-weight: 400;
+    width: 120px;
+}
+.titre:hover{
+    background-color: rgb(243, 241, 241);
+    cursor: pointer;
+    
+    border-radius: 10px;
+
+
+
+}
+.Acceuil{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-weight:bold ;
+    background-color: rgb(243, 241, 241);
+    padding-top: 8px;
+    padding-left: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.Acceuil> svg{
+    margin-right: 35px;
+
+
+}
+.Acceuil:hover{
+    background-color: rgb(227, 226, 226);
+    cursor: pointer;
+
+}
+.slide2{
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding-bottom: 5px;
+    width: 200px;
+}
+.slide3{
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding-bottom: 5px;
+    width: 200px;
+}
+.slide4 {
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding-bottom: 5px;
+    width: 200px;
+}
+.slide5 {
+    border-bottom: 1px solid rgb(212, 211, 211);
+    padding-bottom: 5px;
+    width: 200px;
+}
+.titre>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 35px;
+    margin-left: 10px;
+}
+.titre>span{
+    background-color: rgb(88, 196, 239);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-top: 8px;
+}
+.container{
+    width: 82%;
+    padding: 15px  10px;
+   
+
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    
+}
+input{
+    width: 550px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 0px;
+    border: 1px solid rgb(212, 211, 211);
+    padding: 0px 20px;
+    font-size: 18px;
+    margin-left: -250px;
+}
+.search>button{
+    margin-left: -1px;
+    height: 40px;
+    width: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    background-color: transparent;
+
+
+
+}
+.search>button:hover{
+    background-color: rgb(227, 226, 226);
+
+}
+.mic{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(238, 236, 236) ;
+    padding: 5px 10px;
+
+}
+.mic:hover{
+    background-color: rgb(227, 226, 226);
+
+}
+.cpt{
+    margin-left: 160px;
+    margin-top: 4px;
+}
+.cpt>svg{
+    margin-right: 25px;
+    width: 20px;
+    height: 20px;
+}
+.cpt>span{
+    width: 12px;
+    height: 5px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: -40px;
+
+}
+.cpt>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 25px;
+    cursor: pointer;
+
+}
+.cpt>svg:hover{
+    cursor: pointer;
+}
+
+.navb{
+    margin-top: 20px;
+}
+.navb> button{
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:  rgb(227, 226, 226);
+    transition: 1s ease all;
+}
+.navb> button:hover{
+    background-color: rgb(207, 207, 207);
+}
+.col-4{
+    margin-top: 50px;
+    
+}
+.col-4:hover{
+    cursor: pointer;
+}
+.card{
+    padding: 0px 10px;
+    margin-left: 10px;
+   
+    border: none;
+
+}
+.card-image{
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+.time{
+    width: 42px;
+    height: 22px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-left: 275px;
+    margin-top: -25px;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 1px;
+}
+.profil{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.titrevid, .name, .shortit{
+    display: flex;
+    flex-direction: row;
+
+}
+.titrevid  >  h5{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 8px;
+    font-size: 16px;
+    font-weight: 630;
+
+}
+.card-title, .vue{
+    margin-left: 45px;
+   color:  rgb(126, 125, 125);
+   font-weight:  400;
+   font-size: 18px;
+
+}
+.vue{
+    margin-left: 45px;
+   color:  rgb(85, 85, 85);
+   font-weight: 500;
+   font-size: small;
+   display: flex;
+   flex-direction: row;
+
+}
+.point{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color:  rgb(85, 85, 85);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:6px ;
+
+}
+.shortit>h6{
+    margin-top: 23px;
+    margin-left: -30px;
+    font-weight: 700;
+    font-size: 23px;
+
+}
+.col-2{
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 25px;
+
+
+}
+.col-2:hover{
+    cursor: pointer;
+
+}
+.col-2 img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.col-2 h6{
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+}
+.col-2 .vue{
+    margin-left: 0px;
+    font-size: 14px;
+}
+.shorts{
+    border-bottom: 1px solid rgb(212, 211, 211);
+
+}
+.plus{
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(212, 211, 211);
+    margin-left: 350px;
+    margin-bottom: -20px;
+    border-radius: 30px;
+
+}
+
